@@ -1,0 +1,489 @@
+@font-face {
+  font-family: 'RealTextOT';
+  src: url('fonts/RealTextOT/RealTextOT.woff') format('woff'),
+       url('fonts/RealTextOT/RealTextOT.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RealTextOT-Bold';
+  src: url('fonts/RealTextOT/RealTextOT-Bold.woff') format('woff'),
+       url('fonts/RealTextOT/RealTextOT-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RealTextOT-Medium';
+  src: url('fonts/RealTextOT/RealTextOT-Medium.woff') format('woff'),
+       url('fonts/RealTextOT/RealTextOT-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RealTextOT-Light';
+  src: url('fonts/RealTextOT/RealTextOT-Light.woff') format('woff'),
+       url('fonts/RealTextOT/RealTextOT-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RealTextScOffc-Medium';
+  src: url('fonts/RealTextScOffc/RealTextScOffc-Medium.woff') format('woff'),
+       url('fonts/RealTextScOffc/RealTextScOffc-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RealTextOffc-Medium';
+  src: url('fonts/RealTextOffc-Medium/RealTextOffc-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RealTextOffc-Bold';
+  src: url('fonts/RealTextOffc-Bold/RealTextOffc-Bold.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'RealTextOffc';
+  src: url('fonts/RealTextOffc/RealTextOffc.woff') format('woff'),
+       url('fonts/RealTextOffc/RealTextOffc.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RealTextOffc-Light';
+  src: url('fonts/RealTextOffc/RealTextOffc-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MillerDisplay-Italic';
+  src: url('fonts/Miller/MillerDisplay-Italic.woff') format('woff'),
+       url('fonts/RealTextOT/MillerDisplay-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MillerText-Italic';
+  src: url('fonts/Miller/MillerText-Italic.woff') format('woff'),
+       url('fonts/RealTextOT/MillerText-Italic.ttf') format('truetype');
+}
+body {
+  /*font-family: 'RealTextOT', Fallback, sans-serif;*/
+}
+
+.container {
+  width: 8.5in;
+  height: 11in;
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+
+}
+
+
+#background {
+  margin-left: -15px;
+}
+
+#left {
+  /*margin-left: 0.75in; */
+  margin-top: 0.5in;
+  padding-left: 0.75in;
+}
+
+
+#mileiq {
+  width: 0.8967in;
+  height: 0.2204in;
+
+}
+
+.header {
+  margin-top: 0.399in;
+}
+
+.meet {
+  color: white;
+  font-size: 38pt;
+  margin-bottom: 7px;
+  /*font-weight: bold; */
+  font-family: 'RealTextOT-Bold';
+  /*background-color: blue;
+  /* need a left change */
+}
+
+
+.info {
+  color: white;
+  font-size: 9pt;
+  width: 3in;
+  font-family: 'RealTextOT-Medium';
+  line-height: 12pt;
+
+}
+
+.apps {
+  margin-top: 0.221in;
+}
+
+#appstore, #googleplay {
+  height: 0.37in;
+  width: 1.1in;
+  padding-left: -0.013in;
+  /*possible change from left */
+}
+
+#googleplay {
+  padding-left: 0.1in;
+}
+
+.cando {
+  margin-top: 0.7767in;
+}
+
+.capabilities {
+      margin-top: 0.35in;
+}
+#icon1 {
+  width: 0.3947in;
+  height: 0.5065in;
+  float: left;
+}
+
+#icon2 {
+  width: 0.3152in;
+  height: 0.4801in;
+  float: left;
+  margin-left: 0.064in;
+}
+
+#icon3 {
+  height: 0.3943in;
+  width: 0.3943in;
+  float: left;
+}
+
+.candoheadings {
+  font-family: 'RealTextOT-Medium';
+  font-size: 10pt;
+  color: #78BF60;
+  font-weight: normal;
+  margin-left: 0.6in;
+  margin-bottom: 3px;
+}
+
+.details {
+  font-family: 'RealTextOT-Light';
+  font-size: 9pt;
+  margin-left: 0.6in;
+  font-weight: lighter;
+  width: 2.25in;
+}
+
+
+#right {
+  margin-top: 1.0572in;
+  padding-right: 0;
+  padding-left: 0.0625in;
+}
+
+
+#bottom {
+  margin-top: 0.2266in;
+  background-image: url("images/banner.png");
+  background-repeat: no-repeat;
+  background-size: 2.49in 0.3488in;
+}
+
+#bottom-left {
+  padding-left: 0.75in;
+}
+
+#discount {
+  font-family:'RealTextSCOffc-Medium';
+  font-size: 10pt;
+  line-height: 12pt;
+  color: white;
+  /*change font */
+  margin-top: 10px;
+}
+/* different font!!!! */
+#deal {
+  font-family: 'RealTextOffc-Medium';
+  margin-top: 0.3213in;
+  font-size: 15pt;
+    color: RGB(78,77,77);
+}
+
+#twenty {
+  font-family: 'RealTextOffc-Bold';
+  font-size: 19pt;
+  line-height: 20pt;
+}
+
+#promo {
+  font-family: 'RealTextOffc-Medium';
+  font-size: 12pt;
+  margin-top: -10px;
+  line-height: 20pt;
+  color: RGB(78,77,77);
+}
+
+#code {
+  font-weight: bold;
+  font-size: 16pt;
+  font-style: oblique;
+  color: black;
+}
+
+#sell {
+  font-family: 'RealTextOT';
+  font-size: 10pt;
+  width: 3.2623in;
+  line-height: 16.5pt;
+  margin-top: 15.8px;
+}
+
+
+#step-title {
+  font-family: 'RealTextOffc';
+  font-size: 9pt;
+  color: RGB(102,103,102);
+  margin-top: 0.3164in;
+  margin-top: 0.247in;
+}
+
+#steps {
+  font-family:'RealTextOffc-Light';
+  font-size: 9pt;
+  color: RGB(102,103,102);
+  list-style-type: none;
+  padding-left: 0.1875in;
+  width: 3.2485in;
+  line-height: 10.8pt;
+}
+
+.step {
+  font-family:'RealTextOT';
+}
+
+#steps li {
+  margin-top: 0.0699in;
+}
+
+#bottom-right {
+  background-image: url("images/verticalbar1.png");
+  background-repeat: no-repeat;
+  background-position: 0.25in -1px;
+  background-size: 5px 3.7281in;
+  padding-left: 0.78in;
+  padding-bottom: 0.31in;
+}
+
+.topics {
+  font-family: 'RealTextOT-Medium';
+  font-size: 10pt;
+  color: RGB(78,77,77);
+  margin-bottom: 0.0625in;
+  margin-top: -8px;
+}
+
+.quote {
+  font-family: 'MillerDisplay-Italic';
+  text-indent: -6px;
+  color: RGB(102,103,102);
+  font-size: 10pt;
+  margin-bottom: 2px;
+  /* this needs to be updated with the new text */
+  width: 2.7in;
+  line-height: 12pt;
+  margin-top: 8px;
+
+
+}
+
+.author {
+  font-family: 'RealTextOT-Light';
+  font-size: 8pt;
+  color: RGB(102,103,102);
+  margin-top: -1px;
+}
+
+#stars {
+  height: 0.153in;
+  width: 0.866in;
+}
+
+.name {
+  margin-left: 0.065in;
+}
+
+.review1 {
+  margin-top: 6px;
+}
+.review2 {
+  margin-top: 0.62in;
+}
+
+.review3 {
+  margin-top: 0.721in;
+}
+
+#footer {
+  border-style: solid none none none;
+  border-color: black;
+  border-width: thin;
+  margin-left: 58px;
+  margin-right: 58px;
+  margin-top: 24px;
+}
+
+.howtoredeem {
+  font-family: 'RealTextOT-Light';
+  font-size: 8pt;
+  color: RGB(78,77,77);
+  margin-left: -15px;
+  margin-top: 0.109375in;
+}
+
+.weblink {
+  font-family: 'RealTextOT-Light';
+  font-size: 8pt;
+  margin-top: 0.109375in;
+  margin-right: -0.15in;
+  float: right;
+}
+/* 0.5442
+0.6141
+
+/*.top {
+  position: relative;
+  max-width: 816px;
+  max-height: 1056px;
+}
+
+#background {
+  width: 816px;
+  height: 307.2px;
+
+}
+
+#phones {
+  position: absolute;
+  top: 101.5px;
+  right: -15px;
+  height: 449.2px;
+  width: 418.1px;
+}
+
+#mileiq {
+  width: 86px;
+  height: 21.1px;
+  position: absolute;
+  top: 48px;
+  left: 72px;
+}
+
+.left {
+  margin-left: 72px;
+}
+
+.meet {
+  color: white;
+  position: absolute;
+  top: 100px;
+  font-size: 38pt;
+  font-weight: bold;
+
+
+  /* need a left change */
+}
+
+/*.info {
+  color: white;
+  font-size: 9pt;
+  position: absolute;
+  top: 171.5px;
+  width: 274px;
+  font-weight: normal;
+}
+
+#appstore, #googleplay {
+  height: 36.2px;
+  width: 104.2px;
+  position: absolute;
+  top: 239.5px;
+  /*possible change from left */
+/*}
+
+#googleplay {
+  left: 186.5px;
+}
+
+#icon1 {
+  width: 0.3947in;
+  height: 0.5065in;
+  float: left;*/
+  /*position: absolute;
+  top: 3.6717in;
+  left: 0.7183in;
+}
+
+#icon2 {
+  width: 0.3152in;
+  height: 0.4801in;
+  float: left;
+  position: absolute;
+  top: 4.5514in;
+  left: 0.7823in;
+}
+
+#icon3 {
+  height: 0.3943in;
+  width: 0.3943in;
+  float: left;
+  position: absolute;
+  top: 5.4372in;
+  left: 0.7188in;
+}
+
+.capabilities {
+  height: 50px;
+  max-width: 300px;
+  padding-top: 25px;
+}
+
+section {
+  margin-left: 60px;
+  display: inline;
+}
+
+.candoheadings1 {
+  font-size: 10pt;
+  color: #78BF60;
+  font-weight: normal;
+  position: absolute;
+  top: 3.58in;
+  left: 1.345in;
+
+}
+
+.candoheadings2 {
+  font-size: 10pt;
+  color: #78BF60;
+  font-weight: normal;
+  position: absolute;
+  top: 4.425in;
+  left: 1.345in;
+}
+
+.candoheadings3 {
+  font-size: 10pt;
+  color: #78BF60;
+  font-weight: normal;
+  position: absolute;
+  top: 5.285in;
+  left: 1.345in;
+}
+
+.details1 {
+  font-size: 9pt;
+  margin-left: 60px;
+  margin-top: -5px;
+  font-weight: lighter;
+  position: absolute;
+  top: 3.945in;
+}*//*/
