@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    // Add the new slick-theme.css if you want the default styling
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <script> 
+    document.ontouchmove = function(event) { event.preventDefault(); }
+    </script>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="button-close">
+        <!-- This is the close button svg.  Add the dark.svg to this folder and change the image src to 'dark.svg' for a darker (x) -->
+        <a href="appboy://close"><img src="light.svg" width="22px;"/></a>
+      </div>
+      <div class="modal sentiment pages">
+        <div>
+          <div class="top-container">
+            <img src="image.png">
+          </div>
+
+          <div class="bottom-container">
+            <h1>GENERAL INTRO:</h1>
+            <h2>How is your experience with MileIQ?</h2>
+            <p>Please take a moment to rate MileIQ and let us know how we're doing.</p>
+          </div>
+
+          <footer>
+            <div class='smileys'>
+              <a href="https://www.appboy.com?abButtonId=0&abExternalOpen=true"><img src="sad.png" class="left"></a>
+              <a href="https://www.appboy.com?abButtonId=1&abExternalOpen=true"><img src="happy.png"></a>
+            </div>
+          </footer>
+        </div>
+
+        <div>
+          <div class="top-container">
+            <img src="image.png">
+          </div>
+
+          <div class="bottom-container">
+            <h1>GENERAL INTRO2:</h1>
+            <h2>How is your experience with MileIQ?</h2>
+            <p>Please take a moment to rate MileIQ and let us know how we're doing.</p>
+          </div>
+
+          <footer>
+            <div class='smileys'>
+              <a href="https://www.appboy.com?abButtonId=0&abExternalOpen=true"><img src="sad.png" class="left"></a>
+              <a href="https://www.appboy.com?abButtonId=1&abExternalOpen=true"><img src="happy.png"></a>
+            </div>
+          </footer>
+        </div>
+
+
+      </div>
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.pages').slick({
+          setting-name: setting-value
+        });
+      });
+    </script>
+  </body>
+</html>

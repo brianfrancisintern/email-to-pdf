@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+    <link rel="stylesheet" href="main.css">
+    <script> 
+    document.ontouchmove = function(event) { event.preventDefault(); }
+    </script>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="button-close">
+        <!-- This is the close button svg.  Add the dark.svg to this folder and change the image src to 'dark.svg' for a darker (x) -->
+        <a href="appboy://close"><img src="light.svg" width="22px;"/></a>
+      </div>
+      <div class="modal survey">
+        <div class="top-container">
+          <img src="image.png">
+        </div>
+
+        <div class="bottom-container">
+          <h1>QUICK SURVEY:</h1>
+          <p>Have You used the join drives feautre?</p>
+        </div>
+
+        <footer>
+          <form id='foo'>
+            <div class="button-center">
+              <input type="hidden" name="id" value="{{${user_id}}}">
+              <input type="hidden" name="response" value="yes">
+              <div id='success'></div>
+              <button type='submit'><a href="appboy://close">Send</a></button>
+            </div>
+          </form>
+         
+
+
+       <!--  <form id='foo'>
+          <div class='button-center'>
+            <button name="response1" type="submit" value="No"><a href="appboy://feed?adButtonId=0"><p> Maybe</p></a></button>
+          </div>
+          <div class='button-center'>
+            <button name="response2" type="submit" value="No"><a href="appboy://feed?adButtonId=0"><p> Maybe</p></a></button>
+          </div>
+          <div class='button-center'>
+            <button name="response3" type="submit" value="No"><a href="appboy://feed?adButtonId=0"><p> Maybe</p></a></button>
+          </div>
+        </form> -->
+<!-- 
+          <form id='foo'>
+            <p>
+              <label>Name</label>
+              <input id='name' name='name' type='text'>
+            </p>
+              <div id='success'></div>
+              <button type='submit'>Send</button>
+          </form> -->
+        </footer>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src='google-sheet.js'></script>
+</html>

@@ -1,0 +1,221 @@
+@font-face {
+  font-family: 'RealTextOffc-Light';
+  src: url('../../fonts/RealTextOffc/RealTextOffc-Light.eot?#iefix') format('embedded-opentype'),  
+  url('../../fonts/RealTextOffc/RealTextOffc-Light.ttf')  format('truetype'), 
+  url('../../fonts/RealTextOffc/RealTextOffc-Light.svg#RealTextOffc-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RealTextOffc';
+  src: url('../../fonts/RealTextOffc/RealTextOffc.eot?#iefix') format('embedded-opentype'),  
+  url('../../fonts/RealTextOffc/RealTextOffc.ttf')  format('truetype'), 
+  url('../../fonts/RealTextOffc/RealTextOffc.svg#RealTextOffc') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RealTextScOffc-Medium';
+  src: url('../../fonts/RealTextScOffc/RealTextScOffc-Medium.eot?#iefix') format('embedded-opentype'),  
+  url('../../fonts/RealTextScOffc/RealTextScOffc-Medium.ttf')  format('truetype'), 
+  url('../../fonts/RealTextScOffc/RealTextScOffc-Medium.woff')  format('woff'), 
+  url('../../fonts/RealTextScOffc/RealTextScOffc-Medium.svg#RealTextOffc-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RealTextOffc-Medium';
+  src: url('../../fonts/RealTextOffc/RealTextOffc-Medium.eot?#iefix') format('embedded-opentype'),  
+  url('../../fonts/RealTextOffc/RealTextOffc-Medium.ttf')  format('truetype'), 
+  url('../../fonts/RealTextOffc/RealTextOffc-Medium.svg#RealTextOffc-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RealTextOffc-Bold';
+  src: url('../../fonts/RealTextOffc/RealTextOffc-Bold.eot?#iefix') format('embedded-opentype'),  
+  url('../../fonts/RealTextOffc/RealTextOffc-Bold.ttf')  format('truetype'), 
+  url('../../fonts/RealTextOffc/RealTextOffc-Bold.svg#RealTextOffc-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-text-size-adjust: 100%;
+  font-family: Avenir-Book, sans-serif;
+  color: #222222;
+  text-align: center;
+  height: 100vh;
+  margin: 0px;
+}
+
+a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  height: 100%;
+}
+
+footer {
+  font-family: Avenir-Black;
+  font-size: 15px;
+  letter-spacing: 0.02em;
+  width: 100%;
+  height: 10%;
+  padding: 0px 22px 22px 22px;
+}
+
+.outer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #fff;
+}
+
+.top-container {
+  /* Change the background-image url to a image of your choice */
+  background: url('image.png') no-repeat top center;
+  position: relative;
+  background-size: cover;
+  width: 100%;
+  height: 60%;
+  padding: 0px;
+}
+
+.button-close {
+  position: absolute;
+  right: 22px;
+  top: 22px;
+  z-index: 99;
+}
+
+.main-image {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 12%;
+  margin: 0 auto;
+}
+
+.main-image img {
+  border-radius: 15px;
+}
+
+.header {
+  font-family: Avenir-Medium;
+  letter-spacing: -0.02em;
+}
+
+.message {
+  font-family: Avenir-Book;
+  font-size: 15px;
+  line-height: 17px;
+}
+
+.bottom-container {
+  overflow: hidden;
+  width: 100%;
+  height: 25%;
+  padding: 0px 15px;
+  margin: 15px 0;
+}
+
+.bottom-container h1{
+  font-family: 'RealTextScOffc-Medium';
+  color: #999999;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  line-height: 1.438em;
+}
+
+.bottom-container h2 {
+  font-family: 'RealTextOffc-Medium';
+  font-size: 22px;
+  letter-spacing: auto;
+  line-height: 1.409;
+  margin: 0;
+}
+
+@media only screen and (min-device-width: 350px ){
+  .bottom-container h2{
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-device-width: 400px ){
+  .bottom-container h2{
+    font-size: 24px;
+  }
+}
+
+.bottom-container p{
+  font-family: 'RealTextOffc-Light';
+  font-size: 14px;
+  letter-spacing: auto;
+  line-height: 1.429em;
+  color: #6D6D6D;
+  margin: 5px 0;
+}
+
+
+@media only screen and (min-device-width: 350px ){
+  .bottom-container p{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-device-width: 400px ){
+  .bottom-container p{
+    font-size: 20px;
+  }
+}
+
+.product h2 {
+  color: #179C6D;
+}
+
+.button-center {
+  background-color: #179C6D;
+  border-radius: 3px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.button-center p {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'RealTextOffc';
+  font-size: 16px;
+}
+
+/* Smaller Devices (iPhone 5, etc) */
+@media only screen and (max-device-width: 568px) {
+  .message {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+/* Tablets (iPads, etc) */
+@media only screen and (min-device-width: 768px) {
+  .modal {
+    width: 45%;
+    height: 50%;
+  }
+}

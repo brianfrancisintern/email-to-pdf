@@ -1,0 +1,245 @@
+@font-face {
+  font-family: 'RealTextOffc-Light';
+  src: url('../../fonts/RealTextOffc/RealTextOffc-Light.eot?#iefix') format('embedded-opentype'),  
+  url('../../fonts/RealTextOffc/RealTextOffc-Light.ttf')  format('truetype'), 
+  url('../../fonts/RealTextOffc/RealTextOffc-Light.svg#RealTextOffc-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RealTextOffc';
+  src: url('../../fonts/RealTextOffc/RealTextOffc.eot?#iefix') format('embedded-opentype'),  
+  url('../../fonts/RealTextOffc/RealTextOffc.ttf')  format('truetype'), 
+  url('../../fonts/RealTextOffc/RealTextOffc.svg#RealTextOffc') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RealTextScOffc-Medium';
+  src: url('../../fonts/RealTextScOffc/RealTextScOffc-Medium.eot?#iefix') format('embedded-opentype'),  
+  url('../../fonts/RealTextScOffc/RealTextScOffc-Medium.ttf')  format('truetype'), 
+  url('../../fonts/RealTextScOffc/RealTextScOffc-Medium.woff')  format('woff'), 
+  url('../../fonts/RealTextScOffc/RealTextScOffc-Medium.svg#RealTextOffc-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RealTextOffc-Medium';
+  src: url('../../fonts/RealTextOffc/RealTextOffc-Medium.eot?#iefix') format('embedded-opentype'),  
+  url('../../fonts/RealTextOffc/RealTextOffc-Medium.ttf')  format('truetype'), 
+  url('../../fonts/RealTextOffc/RealTextOffc-Medium.svg#RealTextOffc-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RealTextOffc-Bold';
+  src: url('../../fonts/RealTextOffc/RealTextOffc-Bold.eot?#iefix') format('embedded-opentype'),  
+  url('../../fonts/RealTextOffc/RealTextOffc-Bold.ttf')  format('truetype'), 
+  url('../../fonts/RealTextOffc/RealTextOffc-Bold.svg#RealTextOffc-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+
+  -webkit-text-size-adjust: 100%;
+  font-family: Avenir-Book, sans-serif;
+  color: #222222;
+  text-align: center;
+  height: 100vh;
+  margin: 0px;
+}
+
+a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  height: 100%;
+}
+
+footer {
+  font-family: 'RealTextOffc';
+  font-size: 16px;
+  letter-spacing: auto;
+  width: 100%;
+  height: 12%;
+  padding: 0px 5% 5% 5%;
+}
+
+.outer {
+  /* To change the background color of the modal, change the rgba configuration.  The last parameter (0.8) configures the opacity. */
+  background-color: rgba(0,0,0,0.55);
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.modal {
+  background-color: #FFFFFF;
+  border-radius: 0px;
+  position: absolute;
+  overflow: hidden;
+  width: 90%;
+  height: 70%;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.top-container {
+  /* Change the background-image url to a image of your choice */
+  /*background: url('imagetest.png') no-repeat center;
+  background-size: inherit; */
+  width: 100%;
+  height: 43%;
+  padding-top: 25px;
+ 
+}
+
+.top-container img{
+  width: 127px;
+  height: 130px; 
+}
+
+@media only screen and (min-device-width: 350px ){
+  .top-container img{
+    width: 147px;
+    height: 150px; 
+}
+}
+
+@media only screen and (min-device-width: 400px ){
+  .top-container img{
+    width: 170px;
+    height: 174px; 
+}
+}
+
+
+.button-close {
+  position: absolute;
+  z-index: 99;
+  right: 5%;
+  top: 10%;
+}
+
+.main-image {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.header {
+  font-family: Avenir-Medium;
+  letter-spacing: -0.02em;
+}
+
+.message {
+  font-family: Avenir-Book;
+  font-size: 15px;
+  line-height: 17px;
+}
+
+.bottom-container {
+  overflow: hidden;
+  width: 100%;
+  height: 43%;
+  padding: 0px 15px;
+}
+
+.bottom-container h1{
+  font-family: 'RealTextScOffc-Medium';
+  color: #999999;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  line-height: 1.438em;
+}
+
+.bottom-container h2 {
+  font-family: 'RealTextOffc-Medium';
+  font-size: 22px;
+  letter-spacing: auto;
+  line-height: 1.409;
+  margin: 0;
+}
+
+@media only screen and (min-device-width: 350px ){
+  .bottom-container h2{
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-device-width: 400px ){
+  .bottom-container h2{
+    font-size: 24px;
+  }
+}
+
+.bottom-container p{
+  font-family: 'RealTextOffc-Light';
+  font-size: 14px;
+  letter-spacing: auto;
+  line-height: 1.429em;
+  color: #6D6D6D;
+  margin: 5px 0;
+}
+
+
+@media only screen and (min-device-width: 350px ){
+  .bottom-container p{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-device-width: 400px ){
+  .bottom-container p{
+    font-size: 20px;
+  }
+}
+
+.feature h2 {
+  color: #06C486;
+}
+
+.button-center {
+  background-color: #3CCE93;
+  border-radius: 3px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.button-center p {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'RealTextOffc';
+  font-size: 16px;
+}
+
+/* Smaller Devices (iPhone 5, etc) */
+@media only screen and (max-device-width: 568px) {
+  .message {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+/* Tablets (iPads, etc) */
+@media only screen and (min-device-width: 768px) {
+  .modal {
+    width: 45%;
+    height: 50%;
+  }
+}
